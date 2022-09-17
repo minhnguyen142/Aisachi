@@ -172,7 +172,9 @@ body
 {
     content: ':';
     position: absolute;
-    right: -4px;
+    right: -2px;
+    color: #fff;
+    animation: animate 1s steps(1) infinite;
 }
 
 #time div:last-child
@@ -182,16 +184,6 @@ body
     justify-content: center;
     align-items: center;
     color: #fff;
-}
-
-#time div:nth-child(1)::after
-{
-    animation: animate 1s steps(1) infinite;
-}
-
-#time div:nth-child(2)::after
-{
-    animation: animate 1s steps(1) infinite;
 }
 
 @keyframes animate
